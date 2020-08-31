@@ -3,6 +3,7 @@ import requests
 import arrow
 import base64
 import os
+import pyarrow
 
 def s3_bang():
     #url = "https://cache1.phantombooster.com/ukZxdjCQmz0/Vg7zuvUGSEG6yzglJ6jkhA/result.json"
