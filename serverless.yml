@@ -31,7 +31,7 @@ provider:
   stackName: ${self:custom.stack_name} # Cloud formation stack name
   stage: ${self:custom.stage}
   runtime: python3.8 # Can also be other versions of python.
-  region: eu-west-1 # Ireland forever
+  region: eu-central-1 # Ireland forever
   environment:
     S3_BUCKET: ${self:custom.s3_bucket}
     S3_KEY_BASE: ${self:custom.s3_key_base}
